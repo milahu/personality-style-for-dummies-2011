@@ -1,6 +1,6 @@
-# TODO_BOOK_AUTHOR_NAME_YEAR
+# Roger R. Pearman - Personality Style for Dummies (HRDQ Special Edition) (2011)
 
-![TODO_BOOK_AUTHOR_NAME_YEAR](cover.avif)
+![Roger R. Pearman - Personality Style for Dummies (HRDQ Special Edition) (2011)](cover.avif)
 
 https://www.amazon.de/dp/1118076966
 
