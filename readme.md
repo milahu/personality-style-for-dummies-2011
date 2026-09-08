@@ -37,6 +37,8 @@ This handy reference guide does the following:
 - Shows readers how to spot someone else's personality style
 - Offers tips for "flexing" personality styles in any situation
 
+.
+
 - Publisher: Wiley Publishing
 - Publication date: January 1, 2011
 - Language: English
