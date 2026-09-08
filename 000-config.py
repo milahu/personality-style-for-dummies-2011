@@ -1,6 +1,21 @@
 # TODO set config values
 
-num_pages = 592
+# NOTE the first 8 pages were moved to the back to fix page numbers
+# original page numbers:
+#   page 1 = page number i
+#   page 2 = page number ii
+#   page 3 = page number iii
+#   page 4 = page number iv
+#   page 5 = page number v
+#   page 6 = page number vi
+#   page 7 = page number vii
+#   page 8 = page number viii
+#   page 9 = page number 1
+#   page 10 = page number 2
+#   page 11 = page number 3
+#   ...
+#   page 96 = page number 88
+num_pages = 96 # 88 + 8
 
 color_pages = []
 
@@ -14,12 +29,13 @@ max_scan_width_mm = 215.88
 max_scan_height_mm = 355.567
 
 # physical page size (before unbinding)
-page_width_mm = 124
-page_height_mm = 190
+page_width_mm = 140
+page_height_mm = 215
 
 # physical page width after unbinding
 # unbinding removes a small strip (about 5 mm width) from the inside edge
 unbinded_page_width_mm = page_width_mm - 5 # 5 mm width was removed
+unbinded_page_width_mm = page_width_mm - 8 # 8 mm width was removed
 
 # TODO use 4 unbinded widths:
 # 1. top width of the first page
@@ -175,8 +191,8 @@ image_viewer = "feh"
 
 fill_white_pages_lightness_file = "0683-lightness.txt"
 
-# 099.999270 325.tiff # white
-# 099.792250 001.tiff # non-white
+# 099.999996 091.tiff # white
+# 099.609150 004.tiff # non-white
 fill_white_pages_white_lightness_threshold = 99.99 / 100 # 99.99%
 
 
@@ -187,6 +203,8 @@ deskew_lightness_file = "0683-lightness.txt"
 
 # Threshold to consider a page "white" (mean lightness close to 1)
 # deskew_white_lightness_threshold = 99.99 / 100 # 99.99%
+# 099.999996 091.tiff # white
+# 099.609150 004.tiff # non-white
 deskew_white_lightness_threshold = 99.95 / 100 # 99.95%
 # deskew_white_lightness_threshold = 99.90 / 100 # 99.90%
 
