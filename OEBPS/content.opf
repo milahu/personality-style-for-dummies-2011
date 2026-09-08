@@ -39,11 +39,11 @@ This handy reference guide does the following:
     <dc:language>en</dc:language>
     <dc:identifier id="bookid">urn:isbn:9781118076965</dc:identifier>
     <dc:publisher>Wiley Publishing</dc:publisher>
-    <meta property="dcterms:modified">2026-09-02T04:51:03Z</meta>
+    <meta property="dcterms:modified">2026-09-08T18:11:36Z</meta>
     <dc:date>2011</dc:date>
     <meta property="dcterms:edition">1</meta>
     <meta property="dcterms:extent">96 pages</meta>
-    <meta name="cover" content="cover-image"/>
+    <meta name="cover" content="img97"/>
     <dc:creator>hocr-to-epub-fxl</dc:creator>
   </metadata>
   <manifest>
@@ -240,7 +240,10 @@ This handy reference guide does the following:
     <item id='img95' href='images/095.avif' media-type='image/avif'/>
     <item id='page96' href='096.xhtml' media-type='application/xhtml+xml' properties='scripted'/>
     <item id='img96' href='images/096.avif' media-type='image/avif'/>
-    <item id='cover-image' href='images/097.tiff' media-type='image/tiff'/>
+    <item id='page97' href='097.xhtml' media-type='application/xhtml+xml' properties='scripted'/>
+    <item id='img97' href='images/097.avif' media-type='image/avif'/>
+    <item id='page98' href='098.xhtml' media-type='application/xhtml+xml' properties='scripted'/>
+    <item id='img98' href='images/098.avif' media-type='image/avif'/>
   </manifest>
   <spine>
     <itemref idref='page1'/>
@@ -339,5 +342,7 @@ This handy reference guide does the following:
     <itemref idref='page94'/>
     <itemref idref='page95'/>
     <itemref idref='page96'/>
+    <itemref idref='page97'/>
+    <itemref idref='page98'/>
   </spine>
 </package>
